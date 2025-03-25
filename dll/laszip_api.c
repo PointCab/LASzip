@@ -1042,7 +1042,7 @@ laszip_I32 laszip_load_dll()
   // Load DLL file
 #ifdef _WIN32
 #ifdef _WIN64
-  laszip_HINSTANCE = LoadLibrary(TEXT("LASzip64.dll"));
+  laszip_HINSTANCE = LoadLibrary(TEXT("LASzip3.dll"));
 #else
   laszip_HINSTANCE = LoadLibrary(TEXT("LASzip.dll"));
 #endif // _WIN64
